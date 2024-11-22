@@ -75,24 +75,29 @@ The **Multi-Agents AI System from Scratch** is a Python-based application levera
 ### Components Breakdown
 
 1. **User**
+
    - Interacts with the system via the Streamlit web interface.
    - Selects tasks and provides input data.
 
 2. **Streamlit App**
+
    - Frontend interface for user interaction.
    - Sends user requests to the Agent Manager.
    - Displays results and validation feedback.
 
 3. **Agent Manager**
+
    - Central coordinator for all agents.
    - Delegates tasks to appropriate main and validator agents.
 
 4. **Main Agents**
+
    - **Summarize Agent:** Generates summaries of medical texts.
    - **Write Article Agent:** Creates drafts of research articles.
    - **Sanitize Data Agent:** Removes PHI from medical data.
 
 5. **Validator Agents**
+
    - **Summarize Validator Agent:** Assesses the quality of summaries.
    - **Refiner Agent:** Enhances drafts for better quality.
    - **Sanitize Validator Agent:** Ensures all PHI has been removed.
@@ -113,7 +118,7 @@ The **Multi-Agents AI System from Scratch** is a Python-based application levera
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/AIAnytime/Multi-Agents-System-from-Scratch.git
+   git clone https://github.com/arbab-kamal/Multi-Agent-AI-System.git
    cd Multi-Agents-System-from-Scratch
    ```
 
@@ -181,10 +186,12 @@ The **Multi-Agents AI System from Scratch** is a Python-based application levera
 ### Main Agents
 
 - **Summarize Agent**
+
   - **Function:** Generates summaries of provided medical texts.
   - **Usage:** Input the text, and receive a concise summary.
 
 - **Write Article Agent**
+
   - **Function:** Creates drafts of research articles based on a topic and optional outline.
   - **Usage:** Provide a topic and outline to generate an initial draft.
 
@@ -195,10 +202,12 @@ The **Multi-Agents AI System from Scratch** is a Python-based application levera
 ### Validator Agents
 
 - **Summarize Validator Agent**
+
   - **Function:** Validates the accuracy and quality of summaries.
   - **Usage:** Receives the original text and its summary to assess quality.
 
 - **Refiner Agent**
+
   - **Function:** Enhances and refines research article drafts for better clarity and coherence.
   - **Usage:** Receives a draft article and returns an enhanced version.
 
